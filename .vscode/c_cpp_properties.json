@@ -3,6 +3,7 @@
         {
             "name": "linux-gcc-arm64",
             "includePath": [
+                "${workspaceFolder}/**",
                 "/usr/include/aarch64-linux-gnu",
                 "/usr/include/aarch64-linux-gnu/c++/12",
                 "/usr/include/aarch64-linux-gnu/c++/12/bits",
@@ -33,6 +34,7 @@
         {
             "name": "mingw-w64-ucrt-x86_64 (C, GCC 15.1.0)",
             "includePath": [
+                "${workspaceFolder}/**",
                 "C:\\msys64\\ucrt64\\include\\**"
             ],
             "defines": [
@@ -58,6 +60,7 @@
         {
             "name": "mingw-w64-ucrt-x86_64 (C++, GCC 14.2.0)",
             "includePath": [
+                "${workspaceFolder}/**",
                 "C:\\msys64\\ucrt64\\include",
                 "C:\\msys64\\ucrt64\\include\\c++\\14.2.0"
             ],
@@ -84,6 +87,7 @@
         {
             "name": "mingw-w64-ucrt-x86_64 (C++, GCC 15.1.0)",
             "includePath": [
+                "${workspaceFolder}/**",
                 "C:\\msys64\\ucrt64\\include",
                 "C:\\msys64\\ucrt64\\include\\c++\\15.1.0"
             ],
